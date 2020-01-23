@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import MiddleContent from './components/imgContainer/middleContent'
 import axios from 'axios';
+import TitleHeader from './components/headerContainer/titleHeader';
+import Footer from './components/footer/footerInfo';
 
 
 function App() {
@@ -19,8 +21,9 @@ function App() {
   return (
  
     <div className="App">
-
+      <TitleHeader apodData={Data} />
      <MiddleContent apodData={Data} />
+     <Footer apodData={Data} />
 
     </div>
   );
