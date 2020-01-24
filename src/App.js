@@ -8,7 +8,7 @@ import styled from 'styled-components';
 
 
 const AppDiv = styled.div `
-background:grey;
+background:#f2f2ff;
 
 `
 
