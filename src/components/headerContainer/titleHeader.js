@@ -1,5 +1,8 @@
 import React from 'react';
 import './titleHeader.css';
+import { Badge } from 'reactstrap';
+import styled from 'styled-components';
+
 
 
 
@@ -7,7 +10,7 @@ const TitleHeader = props => {
     console.log(props)
     return(
         <div className ='Header-Title'>
-            <h1>{props.apodData.title}</h1>
+            <h1 class='display-1'><Badge color="secondary">{props.apodData.title}</Badge></h1>
         </div>
     )
 }

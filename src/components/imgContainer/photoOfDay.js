@@ -6,7 +6,7 @@ const PhotoOfTheDay = props => {
 
     return(
         <div className ='img-container'>
-            <img src={props.dailyImg.url}
+            <img src={props.dailyImg.url} alt='pictures of nebulae,galxies,star clusters,etc'
             />
         </div>
     )
