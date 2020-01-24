@@ -1,16 +1,36 @@
-import React from "react";
-import './middleContent.css'
+import React from 'react';
+// import './middleContent.css';
+import styled from 'styled-components';
+
+
+var Textdiv = styled.div `
+display:flex;
+background-color:lightgrey;
+margin:1% 25%;
+border-radius:15px
+
+`;
+
+const P = styled.p `
+padding: 3%;
+
+`
+
+
 
 
 
 
 const Explanation = props => {
     return (
-        <div className = 'explanationText'>
 
-            <p>{props.imgExplan.explanation}</p>
+        
+        <Textdiv className = 'explanationText'>
 
-        </div>
+            <P>{props.imgExplan.explanation}</P>
+
+        </Textdiv>
+       
     )
 }
 

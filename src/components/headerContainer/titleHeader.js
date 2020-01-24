@@ -1,7 +1,7 @@
 import React from 'react';
 import './titleHeader.css';
 import { Badge } from 'reactstrap';
-import styled from 'styled-components';
+
 
 
 
