@@ -7,9 +7,15 @@ import styled from 'styled-components';
 
 const CardDiv = styled.div `
 background:#0d0d0d;
+display:flex;
+justify-content:center;
+
+
 margin:3% 5%;
 border-radius:15px;
-border:5px,solid,#778899
+border:5px,solid,#778899;
+
+
 `;
 
 const ImgTag = styled.img `
@@ -17,6 +23,8 @@ padding:3% 0;
 border-radius:15px;
 border:5px,solid,#F0F8FF;
 
+max-width: 100%;
+height: auto;
 `
 
 

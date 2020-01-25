@@ -5,6 +5,7 @@ import axios from 'axios';
 import TitleHeader from './components/headerContainer/titleHeader';
 import Footer from './components/footer/footerInfo';
 import styled from 'styled-components';
+import NasaLogo from './components/headerContainer/nlogo.png'
 
 
 const AppDiv = styled.div `
@@ -30,7 +31,7 @@ setData(response.data)
  
     <AppDiv className="App">
 
-      <TitleHeader apodData={Data} />
+      <TitleHeader apodData={Data} nasa={NasaLogo} />
      <MiddleContent apodData={Data} />
      <Footer apodData={Data} />
 
